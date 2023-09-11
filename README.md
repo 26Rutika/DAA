@@ -42,5 +42,16 @@ int main()
 	return 0;
 	
 }
+<br>
+<b>Output<b>
+Enter the size of array6
+
+Enter the array elements1
+1
+1
+1
+0
+0
+Number of zero's is:2
 
 
