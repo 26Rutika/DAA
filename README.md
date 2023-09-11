@@ -63,11 +63,11 @@ int a[10],i,n,count=0;<br>
 cout<<"\nEnter the number of array elements";<br>
 cin>>n;<br>
 cout<<"\nEnter the array elements";<br>
-for(int i=0;i<n;i++) <br>
+for(int i=0;i&ltn;i++) <br>
 {<br>
    cin>>a[i];	<br>	     
 }<br>
-for(int i=0;i<n;i++)<br>
+for(int i=0;&lt<n;i++)<br>
 {<br>
 if(a[i]==0)<br>
 {<br>
