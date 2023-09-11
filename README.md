@@ -74,7 +74,7 @@ if(a[i]==0)<br>
 	count++;<br>
 }<br>  		     
 }<br>
-cout<<"\nNumber of zeroes are"&lt&ltcount; <br>
+cout<<"\nNumber of zeroes are"&lt&lt count; <br>
 return 0;<br>
 }<br>
 
