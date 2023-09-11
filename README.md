@@ -53,7 +53,7 @@ Enter the array elements1<br>
 0
 0<br>
 Number of zero's is:2<br>
-<p>To slove these problem we have use divide and conquer strategy.In which we have use <b>>Binary Search</b></p>
+<p>To slove these problem we have use divide and conquer strategy.In which we have use <b>Binary Search</b></p>
 
 
 
