@@ -6,52 +6,52 @@ Count the number of zeroes in the given array.<br>
 <b>Input</b> arr[]={1,1,1,1,0,0}
 <b>Output</b>:2
 <b>Code<b> <br>
-#include<iostream>
-using namespace std;
-int countzero(int arr[],int n)
-{
-	int low=0;
-	int high=n-1;
-	while(low<=high)
-	{
-		int middle=(low+high)/2;
-		if(arr[middle]==1)
-		{
-			low=middle+1;
-		}
-		else
-		{
-			high=middle-1;
-		}
-	}
-	return n-low;
-}
-int main()
-{
-	int n;
-	int arr[100];
-	cout<<"\nEnter the size of array";
-	cin>>n;
-	cout<<"\nEnter the array elements";
-	for(int i=0;i<n;i++)
-	{
-		cin>>arr[i];
-	}
-	int numzero=countzero(arr,n);
-	cout<<"Number of zero's is:"<<numzero;
-	return 0;
+#include<iostream><br>
+using namespace std;<br>
+int countzero(int arr[],int n)<br>
+{<br>
+	int low=0;<br>
+	int high=n-1;<br>
+	while(low<=high)<br>
+	{<br>
+		int middle=(low+high)/2;<br>
+		if(arr[middle]==1)<br>
+		{<br>
+			low=middle+1;<br>
+		}<br>
+		else<br>
+		{<br>
+			high=middle-1;<br>
+		}<br>
+	}<br>
+	return n-low;<br>
+}<br>
+int main()<br>
+{<br>
+	int n;<br>
+	int arr[100];<br>
+	cout<<"\nEnter the size of array";<br>
+	cin>>n;<br>
+	cout<<"\nEnter the array elements";<br>
+	for(int i=0;i<n;i++)<br>
+	{<br>
+		cin>>arr[i];<br>
+	}<br>
+	int numzero=countzero(arr,n);<br>
+	cout<<"Number of zero's is:"<<numzero;<br>
+	return 0;<br>
 	
-}
+}<br>
 <br>
-<b>Output<b>
-Enter the size of array6
+<b>Output<b><br>
+Enter the size of array6<br>
 
-Enter the array elements1
+Enter the array elements1<br>
 1
 1
 1
 0
-0
+0<br>
 Number of zero's is:2
 
 
