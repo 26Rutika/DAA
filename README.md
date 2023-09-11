@@ -1,4 +1,4 @@
-# DAA
+# DAA 
 Assignment 1:<br>
 Problem Statement:<br> 
 Given an Array of 1s and 0s which as all 1s followed by all 0s. Find the number of 0s. <br>
