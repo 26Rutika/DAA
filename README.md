@@ -54,6 +54,31 @@ Enter the array elements1<br>
 0<br>
 Number of zero's is:2<br>
 <p>To slove these problem we have use divide and conquer strategy.In which we have use <b>Binary Search</b></p>
+<p>First simple approach which I used to slove these problem was simple count varibale with for loop code which I do for it is given below </p><br>
+#include &lt;iostream&gt;<br>
+using namespace std;<br>
+int main()<br>
+{ <br>
+int a[10],i,n,count=0;<br>
+cout<<"\nEnter the number of array elements";<br>
+cin>>n;<br>
+cout<<"\nEnter the array elements";<br>
+for(int i=0;i<n;i++)<br>
+{<br>
+   cin>>a[i];	<br>	     
+}<br>
+for(int i=0;i<n;i++)<br>
+{<br>
+if(a[i]==0)<br>
+{<br>
+	count++;<br>
+}<br>  		     
+}<br>
+cout<<"\nNumber of zeroes are"<<count; <br>
+return 0;<br>
+}<br>
+
+
 
 
 
