@@ -6,7 +6,7 @@ Count the number of zeroes in the given array.<br>
 <b>Input</b> arr[]={1,1,1,1,0,0}
 <b>Output</b>:2
 <b>Code<b> <br>
-#include<iostream> <br>
+#include<iostream> 
 using namespace std;<br>
 int countzero(int arr[],int n)<br>
 {<br>
