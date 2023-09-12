@@ -77,6 +77,7 @@ if(a[i]==0)<br>
 cout<<"\nNumber of zeroes are"&lt&lt count; <br>
 return 0;<br>
 }<br>
+Assignment 1:3 statement
 Problem Statement:<br>
 Given a number n.The task is to find the smallest number whose factorial contain at least n trailing zeroes.<br>
 So to slove these problem we will understand what is trailing zeros.<br>
@@ -90,7 +91,7 @@ Output: 4<br>
 Factorial of 20 is 2432902008176640000 which has<br>
 4 trailing zeroes.<br>
 code:<br>
-#include <iostream><br>
+#include &lt;iostream&gt;<br>
 using namespace std;<br>
  
 int countTrailingZeroes(int n)<br>
